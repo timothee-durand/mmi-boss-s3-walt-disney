@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- ... -->
+
+    <link rel="stylesheet" href="./styles/custom-bootstrap.scss">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+</head>
+<body class="min-vh-100">
+<header class="header-mobile sticky-top w-100 bg-dark text-light d-flex justify-content-between p-2 pr-4 pl-4">
+    <h1 class="text-monospace">Walt Disney</h1>
+    <a class="d-flex align-items-center" onclick="document.querySelector('#menu').classList.toggle('show')"><i class="fas fa-bars fa-3x"></i></a>
+</header>
+<nav class="home-img menu-burger vh-100 w-100 d-flex align-items-center justify-content-center" id="menu">
+    <ul class="list-unstyled d-flex flex-column h-50 justify-content-around text-light">
+        <i class="fas fa-times fa-4x text-light" id="cross-burger" onclick="document.querySelector('#menu').classList.toggle('show')"></i>
+        <li class="h2"><a href="./index.html">Accueil</a></li>
+        <li class="h2"><a href="./biographie.html">Biographie</a></li>
+        <li class="h2"><a href="./filmgraphie.html">Filmographie</a></li>
+        <li class="h2"><a href="./creation-film.html">Création Film</a></li>
+    </ul>
+</nav>
+<main class="top-header pt-3 px-2 container">
+    <div class="row">
+        <div class="col-12 col-md-8">
+            <h2>Filmographie</h2>
+        </div>
+    </div>
+    <div class="row px-4">
+        <div class="col-12 col-md-4">
+            <div class="card shadow" >
+                <img src="./img/alice-in-wonderland.jpg" class="card-img-top" alt="Alice au pays des merveilles">
+                <div class="card-body">
+                    <h5 class="card-title">Alice au pays des merveilles</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a class="btn btn-gradient mb-4 btn-lg px-4 py-2 mx-auto d-block w-50" href="biographie.html">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mt-3 mt-md-0">
+            <div class="card shadow" >
+                <img src="./img/alice-in-wonderland.jpg" class="card-img-top" alt="Alice au pays des merveilles">
+                <div class="card-body">
+                    <h5 class="card-title">Alice au pays des merveilles</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a class="btn btn-gradient mb-4 btn-lg px-4 py-2 mx-auto d-block w-50" href="biographie.html">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mt-3 mt-md-0">
+            <div class="card shadow" >
+                <img src="./img/alice-in-wonderland.jpg" class="card-img-top" alt="Alice au pays des merveilles">
+                <div class="card-body">
+                    <h5 class="card-title">Alice au pays des merveilles</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a class="btn btn-gradient mb-4 btn-lg px-4 py-2 mx-auto d-block w-50" href="biographie.html">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+<footer class="bg-gradient-button w-100 py-5 px-2 text-light text-center  ">
+    <div class="container">
+        <div class="row text-light">
+            <div class="col-6 ">
+                <a href="#" class="font-weight-bold text-light">Mentions légales</a>
+            </div>
+            <div class="col-6 ">
+                <a href="#" class="font-weight-bold text-light">A propos</a>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12"><p class="font-italic">Ce site a été réalisé dans le cadre d'un exercice pédagogique au département MMI de l'IUT de Belfort-Montbéliard</p></div>
+        </div>
+        <div class="row">
+            <div class="col-12"><p class="">© Timothée DURAND, 2020</p></div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

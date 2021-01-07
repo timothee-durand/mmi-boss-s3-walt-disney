@@ -1,0 +1,164 @@
+
+/* simply assign the value */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/rockwell-nova');
+@import url('http://fonts.cdnfonts.com/css/walt-disney-script');
+
+
+@font-face {
+  font-family: 'Walt Disney Script';
+  src: url('./font/WaltDisneyScript.woff2') format('woff2'),
+  url('./font/WaltDisneyScript.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+$font-family-base: Montserrat;
+$headings-font-family: Rockwell;
+$headings-font-weight:normal;
+$font-family-monospace:'Walt Disney Script', sans-serif;
+$font-weight-bold: 700;
+
+$h1-font-size: 3rem;
+
+$primary: #d9a60d;
+$secondary: #bf7973;
+$success: #4a5934;
+$info:#5983d9;
+$dark: #121d40;
+$dark2:#202840;
+$light:#ffffff;
+
+$theme-colors: (
+        "primary":    #d9a60d,
+        "secondary":  #bf7973,
+        "success":    #4a5934,
+        "info":       #5983d9,
+        "dark":       #121d40,
+        "light":      $light
+);
+
+.home-img {
+  background: url("../img/walt_disney.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+}
+
+.header-mobile {
+  height: 8rem;
+  z-index: 50 !important;
+}
+
+.separator-1 {
+  height: 1px;
+}
+
+.bg-dark-2{
+  background-color: $dark2;
+}
+
+.circle-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.bg-gradient-button {
+  background: linear-gradient(#de3f31 0%, #d9a60d 100%);
+}
+
+.btn-gradient {
+  border-radius: 24px !important;
+  color:$light !important;
+  background: linear-gradient(#de3f31 0%, #d9a60d 100%);
+  border:0;
+}
+
+.bg-gradient-blue {
+  background: linear-gradient(#121d40 0%, #5882d8 95.89%, #5983d9 100%);
+}
+
+.min-50-vh {
+  min-height: 50vh;
+}
+
+.font-normal {
+  font-style: normal;
+}
+
+.timeline-line {
+  border-right: 1px $secondary dashed;
+  width: 30px;
+}
+
+.arrow-left {
+  position: relative;
+}
+
+.arrow-left:before {
+  content:"";
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right:10px solid $primary;
+  left: -10px;
+  top: 20px;
+  position: absolute;
+}
+
+.arrow-left:after {
+  content:"";
+  width: 15px;
+  height: 15px;
+  background-color: $light;
+  border: $primary 1px solid;
+  border-radius: 20px ;
+  left: -25px;
+  top: 22.5px;
+  position: absolute;
+}
+
+.round-social-media {
+  width: 26px;
+  height: 26px;
+}
+
+.top-header{
+  //margin-top: 8rem;
+}
+.bg-img-menu {
+  background-image: url("../img/walt_disney.jpg");
+}
+
+.menu-burger {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  transform: translateY(-10000px);
+  transition:all ease-out .6s;
+}
+
+#cross-burger{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.show {
+  transform:translateY(0);
+}
+
+
+
+/* or, use an existing variable */
+
+/* -------end customization-------- */
+
+/* finally, import Bootstrap to set the changes! */
+@import "~bootstrap/scss/bootstrap";
+

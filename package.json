@@ -1,0 +1,34 @@
+{
+  "name": "mmi-boss-s3-walt-disney",
+  "version": "1.0.0",
+  "description": "mmi-boss-s3-walt-disney",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "autoprefixer": "^10.2.0",
+    "parcel": "next",
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^8.2.3",
+    "sass": "^1.32.2"
+  },
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothee-durand/mmi-boss-s3-walt-disney.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothee-durand/mmi-boss-s3-walt-disney/issues"
+  },
+  "homepage": "https://github.com/timothee-durand/mmi-boss-s3-walt-disney#readme"
+}
