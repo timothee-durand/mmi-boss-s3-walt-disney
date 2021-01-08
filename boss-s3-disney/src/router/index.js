@@ -4,6 +4,7 @@ import Home from '../views/Accueil.vue'
 import Filmographie from "@/views/Filmographie.vue";
 import Biographie from "@/views/Biographie.vue";
 import CreateFilm from "@/views/Film/Create.vue";
+import Film from "@/views/Film/Film.vue";
 
 Vue.use(VueRouter)
 
@@ -12,6 +13,7 @@ const routes = [
   { path: '/filmographie', name: 'Filmographie', component: Filmographie },
   { path: '/biographie', name: 'Biographie', component: Biographie },
   { path: '/film/creation', name: 'CreationFilm', component: CreateFilm },
+  { path: '/film/:nom', name: 'Film', component: Film },
 ]
 
 const router = new VueRouter({
