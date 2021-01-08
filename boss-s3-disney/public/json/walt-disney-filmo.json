@@ -1,19 +1,11 @@
-﻿[
-  {
-    "nom": "Oswald le lapin chanceux",
-    "duree": "unknown",
-    "sortie": 1927,
-    "img": "oswald.jpg",
-    "resume": "Oswald le lapin chanceux (Oswald the Lucky Rabbit) est une série de dessins animés américains tournant autour du personnage du même nom créé par Ub Iwerks et Walt Disney en 1927 et distribués par Universal Pictures, qui en détenait les droits. Le personnage d'Oswald le lapin a commencé sa carrière en 1927, juste après la fin des Alice Comedies.Après quelques épisodes, Universal a confié la production à d'autres studios que celui de Disney, dont ceux de Charles B. Mintz et de Walter Lantz. C'est au moment de l'arrêt du contrat entre Disney et Universal qu'est né le personnage de Mickey Mouse.Le personnage d'Oswald a été « récupéré » par la Walt Disney Company en février 2006 à la faveur d'un échange.",
-    "chansons": [],
-    "dist": []
-  },
+[
   {
     "nom": "Steamboat Willie",
     "duree": 7,
     "img": "steamboat-willie.jpg",
+
     "sortie": 1928,
-    "resume": "Steamboat Willie est un court métrage d'animation américain, initialement muet, des studios Disney avec Mickey Mouse sorti en 1928. Troisième film de la série Mickey Mouse, il marque la naissance officielle du personnage. Il est également le premier à avoir bénéficié d'une bande sonore synchronisée dès sa sortie.Le film est une parodie de Cadet d'eau douce (Steamboat Bill Jr.) avec Buster Keaton, sorti en mai 1928.",
+    "resume": "Steamboat Willie est un court m\u00e9trage d'animation am\u00e9ricain, initialement muet, des studios Disney avec Mickey Mouse sorti en 1928. Troisi\u00e8me film de la s\u00e9rie Mickey Mouse, il marque la naissance officielle du personnage. Il est \u00e9galement le premier \u00e0 avoir b\u00e9n\u00e9fici\u00e9 d'une bande sonore synchronis\u00e9e d\u00e8s sa sortie.Le film est une parodie de Cadet d'eau douce (Steamboat Bill Jr.) avec Buster Keaton, sorti en mai 1928.",
     "chansons": [],
     "dist": []
   },
@@ -22,7 +14,7 @@
     "duree": 83,
     "sortie": 1937,
     "img": "blanhe-neige.jpg",
-    "resume": "Blanche-Neige et les Sept Nains (titre original : Snow White and the Seven Dwarfs) est le premier long-métrage d'animation et « classique d'animation » des studios Disney, sorti le 21 décembre 1937 au Carthay Circle Theater de Hollywood. Le film est une adaptation du conte homonyme des frères Grimm paru en 1812, conte fortement ancré dans les traditions européennes. S’il n'est pas, contrairement à ce qui est souvent affirmé, le premier long-métrage d'animation de l'histoire du cinémaNB 1, Blanche-Neige et les Sept Nains éclipse ses prédécesseurs en raison de l'impact qu'il a suscité sur le public aux États-Unis comme à l'international, grâce au travail des nombreux artistes des studios Disney. Considéré par beaucoup comme un chef-d'œuvre, le film marque aussi une étape dans l'animation et même le septième art par les innovations tant techniques qu'artistiques développées et utilisées pour ce film. Le budget de production, 1,48 million de USD, marque un record pour l'époque. L'investissement réalisé par l'entreprise fondée par Walt Disney a été largement rentabilisé par les revenus engendrés à la sortie et toujours aujourd'hui, faisant du film un succès indéniable.",
+    "resume": "Blanche-Neige et les Sept Nains (titre original : Snow White and the Seven Dwarfs) est le premier long-m\u00e9trage d'animation et \u00ab classique d'animation \u00bb des studios Disney, sorti le 21 d\u00e9cembre 1937 au Carthay Circle Theater de Hollywood. Le film est une adaptation du conte homonyme des fr\u00e8res Grimm paru en 1812, conte fortement ancr\u00e9 dans les traditions europ\u00e9ennes. S\u2019il n'est pas, contrairement \u00e0 ce qui est souvent affirm\u00e9, le premier long-m\u00e9trage d'animation de l'histoire du cin\u00e9maNB 1, Blanche-Neige et les Sept Nains \u00e9clipse ses pr\u00e9d\u00e9cesseurs en raison de l'impact qu'il a suscit\u00e9 sur le public aux \u00c9tats-Unis comme \u00e0 l'international, gr\u00e2ce au travail des nombreux artistes des studios Disney. Consid\u00e9r\u00e9 par beaucoup comme un chef-d'\u0153uvre, le film marque aussi une \u00e9tape dans l'animation et m\u00eame le septi\u00e8me art par les innovations tant techniques qu'artistiques d\u00e9velopp\u00e9es et utilis\u00e9es pour ce film. Le budget de production, 1,48 million de USD, marque un record pour l'\u00e9poque. L'investissement r\u00e9alis\u00e9 par l'entreprise fond\u00e9e par Walt Disney a \u00e9t\u00e9 largement rentabilis\u00e9 par les revenus engendr\u00e9s \u00e0 la sortie et toujours aujourd'hui, faisant du film un succ\u00e8s ind\u00e9niable.",
     "chansons": [
       "Je souhaite (I'm Wishing)",
       "Un sourire en chantant (With a Smile and a Song)",
@@ -33,9 +25,9 @@
       "Un jour mon prince viendra (Someday My Prince Will Come)"
     ],
     "dist": [
-      "1938 : Nomination à l'Oscar de la meilleure musique de film",
-      "1938 : Prix à la Mostra de Venise",
-      "1983 : « Jackie Coogan Award » aux Young Artist Awards",
+      "1938 : Nomination \u00e0 l'Oscar de la meilleure musique de film",
+      "1938 : Prix \u00e0 la Mostra de Venise",
+      "1983 : \u00ab Jackie Coogan Award \u00bb aux Young Artist Awards",
       "..."
     ]
   },
@@ -44,9 +36,9 @@
     "duree": 89,
     "sortie": 1940,
     "img": "pinnochio.jpg",
-    "resume": "Pinocchio est le deuxième long-métrage d'animation et « Classique d'animation » des studios Disney, sorti en 1940 et inspiré du conte de Carlo Collodi, Les Aventures de Pinocchio (1881).Avec ce nouveau long-métrage d'animation, Disney espérait renouveler le succès de Blanche-Neige et les Sept Nains (1937) mais la Seconde Guerre mondiale ne permit pas d'atteindre le résultat escompté. De plus, Walt Disney était à la même époque sur un projet plus ambitieux, Fantasia (1940). Le film constitue une prouesse significative dans les techniques d'animation, et il est souvent considéré comme le chef-d'œuvre ultime de Disney. Il comporte malgré tout une part beaucoup plus sombre que les autres classiques de Disney.",
+    "resume": "Pinocchio est le deuxi\u00e8me long-m\u00e9trage d'animation et \u00ab Classique d'animation \u00bb des studios Disney, sorti en 1940 et inspir\u00e9 du conte de Carlo Collodi, Les Aventures de Pinocchio (1881).Avec ce nouveau long-m\u00e9trage d'animation, Disney esp\u00e9rait renouveler le succ\u00e8s de Blanche-Neige et les Sept Nains (1937) mais la Seconde Guerre mondiale ne permit pas d'atteindre le r\u00e9sultat escompt\u00e9. De plus, Walt Disney \u00e9tait \u00e0 la m\u00eame \u00e9poque sur un projet plus ambitieux, Fantasia (1940). Le film constitue une prouesse significative dans les techniques d'animation, et il est souvent consid\u00e9r\u00e9 comme le chef-d'\u0153uvre ultime de Disney. Il comporte malgr\u00e9 tout une part beaucoup plus sombre que les autres classiques de Disney.",
     "chansons": [
-      "Quand on prie la bonne étoile (When You Wish Upon a Star)",
+      "Quand on prie la bonne \u00e9toile (When You Wish Upon a Star)",
       "Un pantin de bois (Little Wooden Head)",
       "Sifflez vite, vite ! (Give a Little Whistle)",
       "La Vie d'artiste (Hi-Diddle-Dee-Dee)",
@@ -55,7 +47,7 @@
     "dist": [
       "1941 : Oscar de la meilleure chanson originale (When you Wish Upon a Star)",
       "1941 : Oscar de la meilleure partition originale pour Leigh Harline, Paul J. Smith et Ned Washington",
-      "1994 : entrée dans le National Film Registry"
+      "1994 : entr\u00e9e dans le National Film Registry"
     ]
   },
   {
@@ -63,9 +55,9 @@
     "duree": 125,
     "sortie": 1940,
     "img": "fantasia.jpg",
-    "resume": "Fantasia est le troisième long-métrage d'animation des studios Disney, sorti à la fin de l'année 1940. Scénarisé par Joe Grantand et Dick Huemer, et réalisé par Ben Sharpsteen, il est composé comme une série de sept séquences illustrant huit morceaux de musique classique célèbres joués pour la plupart par l'orchestre de Philadelphie sous la direction de Leopold Stokowski. Fantasia se veut une véritable expérimentation artistique mettant au premier plan la musique et l'animation : le film ne comporte aucun dialogue si ce n'est les voix du conteur, incarné par le compositeur et critique musical Deems Taylor, et Mickey Mouse dont le personnage marque ici son grand retour après les Silly Symphonies de la décennie précédente. Le film est aussi un tour de force technique : la bande-son utilise un procédé novateur, le « Fantasound », qui permet pour la première fois de déployer un son stéréophonique pour un film commercial diffusé en salles de cinéma.",
+    "resume": "Fantasia est le troisi\u00e8me long-m\u00e9trage d'animation des studios Disney, sorti \u00e0 la fin de l'ann\u00e9e 1940. Sc\u00e9naris\u00e9 par Joe Grantand et Dick Huemer, et r\u00e9alis\u00e9 par Ben Sharpsteen, il est compos\u00e9 comme une s\u00e9rie de sept s\u00e9quences illustrant huit morceaux de musique classique c\u00e9l\u00e8bres jou\u00e9s pour la plupart par l'orchestre de Philadelphie sous la direction de Leopold Stokowski. Fantasia se veut une v\u00e9ritable exp\u00e9rimentation artistique mettant au premier plan la musique et l'animation : le film ne comporte aucun dialogue si ce n'est les voix du conteur, incarn\u00e9 par le compositeur et critique musical Deems Taylor, et Mickey Mouse dont le personnage marque ici son grand retour apr\u00e8s les Silly Symphonies de la d\u00e9cennie pr\u00e9c\u00e9dente. Le film est aussi un tour de force technique : la bande-son utilise un proc\u00e9d\u00e9 novateur, le \u00ab Fantasound \u00bb, qui permet pour la premi\u00e8re fois de d\u00e9ployer un son st\u00e9r\u00e9ophonique pour un film commercial diffus\u00e9 en salles de cin\u00e9ma.",
     "chansons": [
-      "Toccata et fugue en Ré Mineur",
+      "Toccata et fugue en R\u00e9 Mineur",
       "Casse-noisette",
       "L'Apprenti sorcier",
       "Le Sacre du Printemps",
@@ -74,9 +66,22 @@
       "Une Nuit sur le Mont Chauve et Ave Maria"
     ],
     "dist": [
-      "1940 - Prix spécial aux New York Film Critics Circle Awards",
+      "1940 - Prix sp\u00e9cial aux New York Film Critics Circle Awards",
       "1942 - Deux Oscar d'honneur",
-      "1990 - Entrée dans le National Film Registry"
+      "1990 - Entr\u00e9e dans le National Film Registry"
+    ]
+  },
+  {
+    "nom": "Oswald le lapin chanceux",
+    "duree": "0",
+    "sortie": 1927,
+    "img": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/b0\/Snow_white_1937_trailer_screenshot.jpg",
+    "resume": "Oswald le lapin chanceux (Oswald the Lucky Rabbit) est une s\u00e9rie de dessins anim\u00e9s am\u00e9ricains tournant autour du personnage du m\u00eame nom cr\u00e9\u00e9 par Ub Iwerks et Walt Disney en 1927 et distribu\u00e9s par Universal Pictures, qui en d\u00e9tenait les droits. Le personnage d'Oswald le lapin a commenc\u00e9 sa carri\u00e8re en 1927, juste apr\u00e8s la fin des Alice Comedies.Apr\u00e8s quelques \u00e9pisodes, Universal a confi\u00e9 la production \u00e0 d'autres studios que celui de Disney, dont ceux de Charles B. Mintz et de Walter Lantz. C'est au moment de l'arr\u00eat du contrat entre Disney et Universal qu'est n\u00e9 le personnage de Mickey Mouse.Le personnage d'Oswald a \u00e9t\u00e9 \u00ab r\u00e9cup\u00e9r\u00e9 \u00bb par la Walt Disney Company en f\u00e9vrier 2006 \u00e0 la faveur d'un \u00e9change.",
+    "chansons": [
+      "Bluddle-Uddle-Um-Dum (ou The Washing Song)"
+    ],
+    "dist": [
+      "1938 : Nomination \u00e0 l'Oscar de la meilleure musique de film"
     ]
   }
 ]

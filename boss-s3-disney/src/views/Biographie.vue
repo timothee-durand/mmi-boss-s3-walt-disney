@@ -47,11 +47,10 @@ export default {
   methods: {
     getBio() {
       ajaxService.getJson("biographie").then(reponse => this.biographie = reponse).catch(err => this.$bvModal.msgBoxOk("Il y a eu un problème" + err));
-    }
+    },
   },
   mounted() {
     this.getBio()
   }
 }
 </script>
-

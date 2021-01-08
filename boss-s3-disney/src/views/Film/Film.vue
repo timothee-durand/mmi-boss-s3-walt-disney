@@ -2,6 +2,9 @@
   <main>
     <section class="container">
       <div class="row">
+        <div class="col-1 offset-10"><router-link :to="{name:'UdpateFilm', params:{nom:film.nom}}" class="btn btn-primary mt-1"><i class="fas fa-pencil-alt fa-2x"></i></router-link></div>
+      </div>
+      <div class="row">
         <div class="col-12 col-md-8 offset-md-2">
           <img :src="pathImg+film.img" :alt="'Image du film '+film.nom" class="card-img"/>
           <h2>{{ film.nom }}</h2>

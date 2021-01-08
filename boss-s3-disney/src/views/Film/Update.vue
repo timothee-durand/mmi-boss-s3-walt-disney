@@ -2,7 +2,7 @@
   <main class="top-header pt-3 px-2 container mb-3">
     <div class="row">
       <div class="col-12">
-        <h2 class="text-center">Ajout de film</h2>
+        <h2 class="text-center">Modification de film</h2>
       </div>
     </div>
     <div class="row">
@@ -25,7 +25,7 @@
           </div>
           <div class="mb-3">
             <label for="image" class="form-label">Image</label>
-            <input type="url" class="form-control" v-model="film.img" id="image" placeholder="https://">
+            <input type="text" class="form-control" v-model="film.img" id="image" placeholder="https://">
           </div>
           <div class="mb-3">
             <label for="resume" class="form-label">Résumé : </label>
@@ -68,21 +68,14 @@
 <script>
 import ajaxService from "@/services/ajaxService.js";
 import param from "@/param/param.js";
+import utilsService from "@/services/utilsService.js";
 
 export default {
   name: "Create",
   data() {
     return {
       film:
-          {
-            "nom": "Oswald le lapin chanceux",
-            "duree": "unknown",
-            "sortie": 1927,
-            "img": "oswald.jpg",
-            "resume": "Oswald le lapin chanceux (Oswald the Lucky Rabbit) est une série de dessins animés américains tournant autour du personnage du même nom créé par Ub Iwerks et Walt Disney en 1927 et distribués par Universal Pictures, qui en détenait les droits. Le personnage d'Oswald le lapin a commencé sa carrière en 1927, juste après la fin des Alice Comedies.Après quelques épisodes, Universal a confié la production à d'autres studios que celui de Disney, dont ceux de Charles B. Mintz et de Walter Lantz. C'est au moment de l'arrêt du contrat entre Disney et Universal qu'est né le personnage de Mickey Mouse.Le personnage d'Oswald a été « récupéré » par la Walt Disney Company en février 2006 à la faveur d'un échange.",
-            "chansons": ["Bluddle-Uddle-Um-Dum (ou The Washing Song)",],
-            "dist": ["1938 : Nomination à l'Oscar de la meilleure musique de film",]
-          },
+          {          },
       years: [],
 
     }
@@ -95,18 +88,43 @@ export default {
     },
     sendFilm() {
       let data = new FormData();
-      data.append("film", JSON.stringify(this.film))
+      data.append("nom", this.film.nom)
+      data.append("sortie", this.film.sortie)
+      data.append("resume", this.film.resume)
+      data.append("img", this.film.img)
+      data.append("chansons", JSON.stringify(this.film.chansons))
+      data.append("dist", JSON.stringify(this.film.dist))
 
       console.log(param.createFilm)
 
-      ajaxService.postJson("createFilm", data).then(reponse => {
+      ajaxService.postJson("test", data).then(reponse => {
         this.$bvModal.msgBoxOk("Tout bon !" + reponse)
         console.log(reponse);
       }).catch(err => this.$bvModal.msgBoxOk("Il y a eu un problème" + err));
+    },
+    getFilms() {
+      ajaxService.getJson("filmographie").then(reponse => {
+        this.films = reponse
+        this.setFilm()
+      }).catch(err => this.$bvModal.msgBoxOk("Il y a eu un problème" + err));
+    },
+    setFilm() {
+
+      this.film = this.films.filter(function (film, key){
+        let nomUrl =  utilsService.getUrlFriendlyName(this.$route.params.nom);
+        let nomFilm = utilsService.getUrlFriendlyName(film.nom);
+
+        if(nomFilm === nomUrl) {
+          this.filmKey = key;
+        }
+
+        return  nomFilm === nomUrl
+      }.bind(this))[0];
     }
   },
   mounted() {
     this.addYears()
+    this.getFilms();
   }
 }
 </script>
