@@ -12,13 +12,13 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
 
-//ajout font-awesome
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+//ajout axios
+import axios from 'axios';
+import VueAxios from 'vue-axios';
 
-library.add(faUserSecret);
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.use(VueAxios, axios);
+
+
 
 Vue.config.productionTip = false
 
