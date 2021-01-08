@@ -17,7 +17,7 @@
         <div class="row">
           <div class="col-12 col-md-4 offset-1 pr-2">
             <router-link class="btn btn-primary rounded-pill bg-gradient-button text-light border-0 px-5 py-4 mx-auto font-weight-bold"
-               to="biographie">Découvrir</router-link>
+                         to="biographie">Découvrir</router-link>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@
         </div>
         <div class="row mt-4">
           <router-link class="btn btn-primary rounded-pill bg-gradient-button text-light border-0 px-5 py-4 mx-auto font-weight-bold"
-             to="filmgraphie">Plus de films</router-link>
+                       to="/filmographie">Plus de films</router-link>
         </div>
       </div>
     </section>
@@ -93,7 +93,7 @@
       </div>
       <div class="row mt-4">
         <router-link class="btn btn-primary rounded-pill bg-gradient-button text-light border-0 px-5 py-4 mx-auto font-weight-bold"
-           to="biographie">En savoir plus</router-link>
+                     to="biographie">En savoir plus</router-link>
       </div>
     </section>
     <section

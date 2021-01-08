@@ -18,7 +18,7 @@
                to="/biographie">Biographie</router-link>
           </li>
           <li class="nav-item">
-            <router-link aria-current="page" class="nav-link active  h5 text-primary" to="/filmgraphie">Filmographie</router-link>
+            <router-link aria-current="page" class="nav-link active  h5 text-primary" to="/filmographie">Filmographie</router-link>
           </li>
           <li class="nav-item">
             <router-link aria-current="page" class="nav-link active  h5 text-primary" to="/creation-film">Création

@@ -15,7 +15,7 @@
 
 <script>
 import HeaderPerso from "@/components/HeaderPerso.vue";
-import FooterPerso from "@/FooterPerso.vue";
+import FooterPerso from "@/components/FooterPerso.vue";
 
 export default {
   components: {FooterPerso, HeaderPerso}
