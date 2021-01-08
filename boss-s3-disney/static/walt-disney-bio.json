@@ -1,0 +1,52 @@
+﻿{
+  "real": "Walt Disney",
+  "resume": "Walter Elias Disney dit Walt Disney est un producteur, réalisateur, scénariste et animateur américain, né le 5 décembre 1901 à Chicago (Illinois) et mort le 15 décembre 1966 à Burbank (Californie). Il est l'un des pionniers de l'animation et est une icône du xxe siècle.",
+  "life": "Né en 1901 à Chicago (Etats-Unis), Walter Elias Disney dit Walt Disney et son frère Roy sont abandonnés par leur mère. A 16 ans, Walt quitte l'école et, en 1923, il commence à produire des dessins animés à Hollywood avec son frère. Entre 1926 et 1928, il réalise une série de dessins 'Oswald The Rabbit' pour Universal Pictures. Puis il réalise son troisième dessin animé en 1928, 'Steamboat Willie' où apparait une souris d'abord nommée Mortimer et qui deviendra par la suite le célèbre personnage emblématique de Disney : Mickey Mouse. Pendant près de 10 ans, il réalisera pas moins d'une centaine de courts métrages mettant en scène Mickey et ses acolytes : Donald, Pluto et Minnie. En 1937, Walt Disney réalise son premier long métrage 'Blanche Neige et les sept nains' puis suivront 'Pinocchio' (1940), 'Fantasia'(1941) et 'Bambi' (1942). Durant les années 1950 et 1960, Walt Disney Productions est l'une des plus grosses productions cinématographiques au monde. Disney s'inspire de célèbres contes pour créer des personnages mythiques et féeriques qui marqueront de nombreuses générations. Parmi les plus célèbres des Studios Disney, on peut retenir 'Cendrillon' en 1950, 'La Belle au bois dormant' en 1959 ou 'Les 101 Dalmatiens' en 1961. Ils ont également su se diversifier en créant des films pour enfants comme 'L'île aux trésors' en 1950 et 'Mary Poppins' en 1964. Walt Disney meurt en 1966 suite à des problèmes aux poumons. Il laissera derrière lui un véritable empire.",
+  "dates_cles": [
+    {
+      "date": "5 décembre 1901",
+      "evenement:": "Naissance de Walter Elias Disney",
+      "resume": "Walter Elias Disney naît à Chicago. Il y vivra cinq ans avant de déménager dans le Missouri avec sa famille, qui compte ses parents ainsi que trois frères et une sœur. L'enfance du jeune Walt sera marquée par de nombreux déménagements, jalonnant les opportunités de carrière de son père."
+    },
+    {
+      "date": "1 janvier 1923",
+      "evenement:": "Création du Disney Brothers Studio",
+      "resume": "Walt Disney et son frère aîné Roy Oliver co-fondent un studio d'animation. Ils réalisent dans un premier temps des épisodes d'une série appelée \"Alice Comedies\", mélangeant animation et prises de vue réelles. Leur entreprise adoptera son nom définitif en 1928, devenant la Walt Disney Productions."
+    },
+    {
+      "date": "20 septembre 1928",
+      "evenement:": "Première sortie pour 'Mickey Mouse'",
+      "resume": "Le célèbre personnage de dessin animé créé par Walt Disney fait sa toute première apparition dans un court dessin animé, \"Plane Crazy\". Mais il est encore à l'état d'ébauche et ne s'appelle pas \"Mickey\" mais \"Mortimer\". La petite souris prendra son nom définitif dans le premier dessin animé sonore de Walt Disney \"Steamboat Willie\"."
+    },
+    {
+      "date": "20 septembre 1928",
+      "evenement:": "Première sortie pour 'Mickey Mouse'",
+      "resume": "Le célèbre personnage de dessin animé créé par Walt Disney fait sa toute première apparition dans un court dessin animé, \"Plane Crazy\". Mais il est encore à l'état d'ébauche et ne s'appelle pas \"Mickey\" mais \"Mortimer\". La petite souris prendra son nom définitif dans le premier dessin animé sonore de Walt Disney \"Steamboat Willie\"."
+    },
+    {
+      "date": "27 mai 1933",
+      "evenement:": "Il était une fois \"Trois Petits Cochons\"",
+      "resume": "Walt Disney réalise son premier dessin animé en couleur : \"Les trois petits cochons\". Il obtient l'Oscar du meilleur court-métrage et sa chanson \"Qui a peur du grand méchant loup ? C'est pas nous ! c'est pas nous !\" de Frank Churchill est un véritable hit. Sortie en pleine dépression américaine, la chanson apporte au pays un peu d'espoir et d'humour. Le dessin animé sera un succès planétaire."
+    },
+    {
+      "date": "9 juin 1934",
+      "evenement:": "Donald Duck débute",
+      "resume": "Donald Duck fait son apparition aux Etats-Unis dans un dessin animé de Walt Disney, titré \"The Wise Little Hen\" (La petite poule avisée) et s'impose rapidement dans l'univers de la bande dessinée. Deux mois plus tard, Donald fera la connaissance de Mickey dans un autre dessin animé \"Orphan's benefit\". En France, le canard grincheux fera son apparition dans \"Le journal de Mickey\" en avril 1935."
+    },
+    {
+      "date": "21 décembre 1937",
+      "evenement:": "Sortie de \"Blanche-neige et les sept nains\"",
+      "resume": "Le premier long métrage d'animation parlant et en couleur est diffusé à Los Angeles. Produit par Walt Disney, la création de Blanche-Neige et les sept nains (Snow-white and the seven dwarfs) a nécessité trois ans de travail. Le film remporte un incroyable succès et consacre Disney qui prouve qu'un dessin animé de plus d'heure intéresse le public."
+    },
+    {
+      "date": "17 juillet 1955",
+      "evenement:": "Ouverture de Disneyland",
+      "resume": "Après de longues années de conception et de développement, Disneyland ouvre enfin ses portes à Anaheim, en Californie. C'est l'un des premiers parcs de loisirs à thème au monde. Lors de sa conception, Walt Disney avait dans un premier temps destiné ce parc à ses employés et leurs enfants, mais le projet a vite pris de l'envergure et fut finalement destiné au grand public."
+    },
+    {
+      "date": "15 décembre 1966",
+      "evenement:": "Mort du père de Mickey",
+      "resume": "Le fondateur des studios Disney s'éteint à l'âge de 65 ans. Il est victime d'un cancer du poumon, conséquence de son tabagisme. Après sa mort, son frère et co-directeur Roy Oliver Disney continue d'administrer l'entreprise jusqu'à son décès, en 1971."
+    }
+  ]
+}

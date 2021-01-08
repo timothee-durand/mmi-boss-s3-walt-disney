@@ -1,0 +1,82 @@
+﻿[
+  {
+    "nom": "Oswald le lapin chanceux",
+    "duree": 0,
+    "sortie": 1927,
+    "img": "oswald.jpg",
+    "resume": "Oswald le lapin chanceux (Oswald the Lucky Rabbit) est une série de dessins animés américains tournant autour du personnage du même nom créé par Ub Iwerks et Walt Disney en 1927 et distribués par Universal Pictures, qui en détenait les droits. Le personnage d'Oswald le lapin a commencé sa carrière en 1927, juste après la fin des Alice Comedies.Après quelques épisodes, Universal a confié la production à d'autres studios que celui de Disney, dont ceux de Charles B. Mintz et de Walter Lantz. C'est au moment de l'arrêt du contrat entre Disney et Universal qu'est né le personnage de Mickey Mouse.Le personnage d'Oswald a été « récupéré » par la Walt Disney Company en février 2006 à la faveur d'un échange.",
+    "chansons": [],
+    "dist": []
+  },
+  {
+    "nom": "Steamboat Willie",
+    "duree": 7,
+    "img": "steamboat-willie.jpg",
+    "sortie": 1928,
+    "resume": "Steamboat Willie est un court métrage d'animation américain, initialement muet, des studios Disney avec Mickey Mouse sorti en 1928. Troisième film de la série Mickey Mouse, il marque la naissance officielle du personnage. Il est également le premier à avoir bénéficié d'une bande sonore synchronisée dès sa sortie.Le film est une parodie de Cadet d'eau douce (Steamboat Bill Jr.) avec Buster Keaton, sorti en mai 1928.",
+    "chansons": [],
+    "dist": []
+  },
+  {
+    "nom": "Blanche-Neige et les Sept Nains",
+    "duree": 83,
+    "sortie": 1937,
+    "img": "blanhe-neige.jpg",
+    "resume": "Blanche-Neige et les Sept Nains (titre original : Snow White and the Seven Dwarfs) est le premier long-métrage d'animation et « classique d'animation » des studios Disney, sorti le 21 décembre 1937 au Carthay Circle Theater de Hollywood. Le film est une adaptation du conte homonyme des frères Grimm paru en 1812, conte fortement ancré dans les traditions européennes. S’il n'est pas, contrairement à ce qui est souvent affirmé, le premier long-métrage d'animation de l'histoire du cinémaNB 1, Blanche-Neige et les Sept Nains éclipse ses prédécesseurs en raison de l'impact qu'il a suscité sur le public aux États-Unis comme à l'international, grâce au travail des nombreux artistes des studios Disney. Considéré par beaucoup comme un chef-d'œuvre, le film marque aussi une étape dans l'animation et même le septième art par les innovations tant techniques qu'artistiques développées et utilisées pour ce film. Le budget de production, 1,48 million de USD, marque un record pour l'époque. L'investissement réalisé par l'entreprise fondée par Walt Disney a été largement rentabilisé par les revenus engendrés à la sortie et toujours aujourd'hui, faisant du film un succès indéniable.",
+    "chansons": [
+      "Je souhaite (I'm Wishing)",
+      "Un sourire en chantant (With a Smile and a Song)",
+      "Sifflez en travaillant (Whistle While You Work)",
+      "Heigh-Ho",
+      "Bluddle-Uddle-Um-Dum (ou The Washing Song)",
+      "La Tyrolienne des nains (The Silly Song ou The Dwarfs' Yodel Song) ",
+      "Un jour mon prince viendra (Someday My Prince Will Come)"
+    ],
+    "dist": [
+      "1938 : Nomination à l'Oscar de la meilleure musique de film",
+      "1938 : Prix à la Mostra de Venise",
+      "1983 : « Jackie Coogan Award » aux Young Artist Awards",
+      "..."
+    ]
+  },
+  {
+    "nom": "Pinocchio",
+    "duree": 89,
+    "sortie": 1940,
+    "img": "pinnochio.jpg",
+    "resume": "Pinocchio est le deuxième long-métrage d'animation et « Classique d'animation » des studios Disney, sorti en 1940 et inspiré du conte de Carlo Collodi, Les Aventures de Pinocchio (1881).Avec ce nouveau long-métrage d'animation, Disney espérait renouveler le succès de Blanche-Neige et les Sept Nains (1937) mais la Seconde Guerre mondiale ne permit pas d'atteindre le résultat escompté. De plus, Walt Disney était à la même époque sur un projet plus ambitieux, Fantasia (1940). Le film constitue une prouesse significative dans les techniques d'animation, et il est souvent considéré comme le chef-d'œuvre ultime de Disney. Il comporte malgré tout une part beaucoup plus sombre que les autres classiques de Disney.",
+    "chansons": [
+      "Quand on prie la bonne étoile (When You Wish Upon a Star)",
+      "Un pantin de bois (Little Wooden Head)",
+      "Sifflez vite, vite ! (Give a Little Whistle)",
+      "La Vie d'artiste (Hi-Diddle-Dee-Dee)",
+      "Sans aucun lien (I've Got No Strings)"
+    ],
+    "dist": [
+      "1941 : Oscar de la meilleure chanson originale (When you Wish Upon a Star)",
+      "1941 : Oscar de la meilleure partition originale pour Leigh Harline, Paul J. Smith et Ned Washington",
+      "1994 : entrée dans le National Film Registry"
+    ]
+  },
+  {
+    "nom": "Fantasia",
+    "duree": 125,
+    "sortie": 1940,
+    "img": "fantasia.jpg",
+    "resume": "Fantasia est le troisième long-métrage d'animation des studios Disney, sorti à la fin de l'année 1940. Scénarisé par Joe Grantand et Dick Huemer, et réalisé par Ben Sharpsteen, il est composé comme une série de sept séquences illustrant huit morceaux de musique classique célèbres joués pour la plupart par l'orchestre de Philadelphie sous la direction de Leopold Stokowski. Fantasia se veut une véritable expérimentation artistique mettant au premier plan la musique et l'animation : le film ne comporte aucun dialogue si ce n'est les voix du conteur, incarné par le compositeur et critique musical Deems Taylor, et Mickey Mouse dont le personnage marque ici son grand retour après les Silly Symphonies de la décennie précédente. Le film est aussi un tour de force technique : la bande-son utilise un procédé novateur, le « Fantasound », qui permet pour la première fois de déployer un son stéréophonique pour un film commercial diffusé en salles de cinéma.",
+    "chansons": [
+      "Toccata et fugue en Ré Mineur",
+      "Casse-noisette",
+      "L'Apprenti sorcier",
+      "Le Sacre du Printemps",
+      "Symphonie Pastorale",
+      "La Danse des heures",
+      "Une Nuit sur le Mont Chauve et Ave Maria"
+    ],
+    "dist": [
+      "1940 - Prix spécial aux New York Film Critics Circle Awards",
+      "1942 - Deux Oscar d'honneur",
+      "1990 - Entrée dans le National Film Registry"
+    ]
+  }
+]
