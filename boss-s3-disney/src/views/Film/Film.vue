@@ -19,8 +19,12 @@
           <ul>
             <li v-for="dist in film.dist" :key="dist"><p> {{dist}} </p></li>
           </ul>
+
+          <share></share>
         </div>
+
       </div>
+
     </section>
     <section class="bg-gradient-blue py-5 px-2 d-flex align-items-center justify-content-center text-light">
       <router-link :to="{name: 'Film', params:{nom: getUrlFriendlyName(nextFilmName)}}" class="text-light font-weight-bold">
@@ -40,9 +44,11 @@
 import param from "@/param/param.js";
 import ajaxService from "@/services/ajaxService.js";
 import utilsService from "@/services/utilsService.js";
+import Share from "@/components/Share.vue";
 
 export default {
   name: "Film",
+  components: {Share},
   data() {
     return {
       film: {
